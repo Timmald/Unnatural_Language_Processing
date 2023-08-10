@@ -1,0 +1,26 @@
+#Text_Box{
+    background-color:transparent;
+    color: white;
+    text-align: left;
+    font-family: monospace;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    border-color:transparent;
+    outline:none;
+    height: 100%;
+    width:100%;
+    transition:color 2s;
+}
+
+#Text_Box:focus{
+    outline:none;
+}
+#Text_Box:focus::placeholder{
+    opacity:0;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.51);
+    font-style: italic;
+}

@@ -1,0 +1,19 @@
+g{
+    width:60%;
+    height:10%;
+    transform: translate(13%, 25%);
+    position:relative;
+}
+
+#Typing_Box_Container{
+    justify-content: left;
+    display: flex;
+    height:25%;
+    transform:translate(3%,2%);
+}
+
+#Line_Accent{
+    display: flex;
+    justify-self: right;
+    transform:translate(6%,91%);
+}

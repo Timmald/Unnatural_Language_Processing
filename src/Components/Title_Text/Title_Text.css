@@ -1,0 +1,40 @@
+.Title_Text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 4px 7px rgba(0, 0, 0, 0.25);
+    font-family: monospace;
+    font-style: normal;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: normal;
+    transition: font-size .2s;
+}
+
+@media screen and (max-width: 650px){
+    .Title_Text{
+        font-size:70px;
+    }
+}
+@media screen and (min-width:1688px){
+    #Processing{
+        padding-left:3%;
+    }
+}
+#Unnatural{
+    display: inline-flex;
+    text-align:left;
+    color: #EF9039;
+    padding-right:2%;
+}
+#Language{
+    display:inline-flex;
+    text-align:right;
+    color: #A05FC9;
+    padding-left:2%;
+}
+
+#Processing{
+    color: #5F8C43;
+}
