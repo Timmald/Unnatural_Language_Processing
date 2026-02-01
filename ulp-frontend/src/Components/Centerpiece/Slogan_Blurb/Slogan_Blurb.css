@@ -1,0 +1,10 @@
+#Slogan_Blurb{
+    font-family: "Comic Sans MS", serif;
+    font-size:32px;
+    text-align:center;
+    color:white;
+    z-index: -1;
+    position:relative;
+    padding-left:5%;
+    padding-top: 1%;
+}

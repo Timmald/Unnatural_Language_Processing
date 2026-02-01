@@ -1,0 +1,26 @@
+#Voice_Button_Container{
+    transform:translate(-15%,40%);
+    height:25%;
+}
+
+.Voice_Button {
+    isolation: auto;
+    color:white;
+    background: none;
+    border-image: linear-gradient(180deg, rgba(255, 175, 156, 1) 0%, rgba(255, 196, 95, 1) 100%) 30;
+    border-image-repeat: initial;
+    border-width: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    font-size: 48px;
+    font-family: monospace;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+#Voice_Submit{
+    /* TODO: Make this button look different to submit */
+    margin-left:20%;
+    width: 20%;
+}

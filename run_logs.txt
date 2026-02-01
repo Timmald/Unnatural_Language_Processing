@@ -1,0 +1,37 @@
+
+> ulp-frontend@0.0.0 dev
+> vite
+
+4:22:57 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.3.1  ready in 308 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.17.0.2:5173/
+2026-01-30 16:22:58.370800: I tensorflow_serving/model_servers/server.cc:78] Building single TensorFlow model file config:  model_name: realEmbedding.model model_base_path: /models/realEmbedding.model
+2026-01-30 16:22:58.411850: I tensorflow_serving/model_servers/server_core.cc:481] Adding/updating models.
+2026-01-30 16:22:58.418104: I tensorflow_serving/model_servers/server_core.cc:610]  (Re-)adding model: realEmbedding.model
+2026-01-30 16:23:04.111637: I tensorflow_serving/core/basic_manager.cc:771] Successfully reserved resources to load servable {name: realEmbedding.model version: 1}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1769790184.112024      27 loader_harness.cc:71] Approving load for servable version {name: realEmbedding.model version: 1}
+I0000 00:00:1769790184.115694      27 loader_harness.cc:79] Loading servable version {name: realEmbedding.model version: 1}
+2026-01-30 16:23:04.123496: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:83] Reading SavedModel from: /models/realEmbedding.model/1
+2026-01-30 16:23:04.333811: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:52] Reading meta graph with tags { serve }
+2026-01-30 16:23:04.334883: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:147] Reading SavedModel debug info (if present) from: /models/realEmbedding.model/1
+2026-01-30 16:23:04.342685: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1769790185.453287      27 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+2026-01-30 16:23:05.580312: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:236] Restoring SavedModel bundle.
+2026-01-30 16:23:05.722735: W external/local_xla/xla/tsl/platform/profile_utils/cpu_utils.cc:118] Failed to find bogomips or clock in /proc/cpuinfo; cannot determine CPU frequency
+W0000 00:00:1769790187.119176      27 op_level_cost_estimator.cc:743] Invalid device specifications for CPU: type: "CPU" vendor: "AuthenticAMD" model: "102" num_cores: 4 environment { key: "cpu_instruction_set" value: "AVX SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 65536 l2_cache_size: 524288 l3_cache_size: 16777216 memory_size: 268435456
+2026-01-30 16:23:07.838557: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:220] Running initialization op on SavedModel bundle at path: /models/realEmbedding.model/1
+2026-01-30 16:23:08.661596: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:471] SavedModel load for tags { serve }; Status: success: OK. Took 4537783 microseconds.
+2026-01-30 16:23:08.718822: I tensorflow_serving/servables/tensorflow/saved_model_warmup_util.cc:82] No warmup data file found at /models/realEmbedding.model/1/assets.extra/tf_serving_warmup_requests
+I0000 00:00:1769790194.260322      27 loader_harness.cc:105] Successfully loaded servable version {name: realEmbedding.model version: 1}
+2026-01-30 16:23:14.288752: I tensorflow_serving/model_servers/server_core.cc:502] Finished adding/updating models
+2026-01-30 16:23:14.293222: I tensorflow_serving/model_servers/server.cc:122] Using InsecureServerCredentials
+2026-01-30 16:23:14.294558: I tensorflow_serving/model_servers/server.cc:393] Profiler service is enabled
+2026-01-30 16:23:14.328769: I tensorflow_serving/model_servers/server.cc:428] Running gRPC ModelServer at 0.0.0.0:8500 ...
+[warn] getaddrinfo: address family for nodename not supported
+2026-01-30 16:23:14.346992: I tensorflow_serving/model_servers/server.cc:449] Exporting HTTP/REST API at:localhost:8501 ...
+[evhttp_server.cc : 261] NET_LOG: Entering the event loop ...
