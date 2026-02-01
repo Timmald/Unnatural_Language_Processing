@@ -7,7 +7,7 @@ It is currently over 93% accurate for words up to 10 characters long.
 
 There may also be some missing sound files, feel free to leave an issue on this repo if your input doesn't generate a sound file.
 
-This is currently deployed on my Raspberry Pi at ulp.timmald.com[https://ulp.timmald.com], so I apologize if it is down.
+This is currently deployed on my Raspberry Pi at https://ulp.timmald.com, so I apologize if it is down.
 
 If you want to run it yourself, do the following:
 1. Build the docker images in ulp-frontend (named `ulp`) and ulp-backend (named `ulp-api`)
